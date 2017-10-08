@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AccordianTab } from './components/accordianTab';
+import { Accordion } from './components/accordian';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccordianTab,
+    Accordion
   ],
   imports: [
     BrowserModule,
